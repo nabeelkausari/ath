@@ -1,0 +1,45 @@
+.file-container {
+  margin: 16px;
+  background-color: #F8FAFF;
+  border-radius: 20px;
+  padding: 20px;
+  position: relative;
+
+  &__header{
+    margin-bottom: 20px;
+    font-size: 13px;
+  }
+
+  &__text-area-for-copy{
+    height: 0;
+    width: 0;
+    opacity: 0;
+  }
+
+  .language {
+    margin-top: 10px;
+  }
+
+  .copy{
+    float: right;
+    margin-right: 1rem;
+    cursor: pointer;
+  }
+
+  .text {
+    font-size: 11px;
+    color: var(--text-secondary);
+    //text-shadow: black 0px -0.1em 0.2em;
+    font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    overflow-wrap: normal;
+    line-height: 1.5;
+    tab-size: 4;
+    hyphens: none;
+    overflow: auto;
+  }
+
+}

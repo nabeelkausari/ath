@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="125.119" height="127.742" viewBox="0 0 125.119 127.742">
+  <defs>
+    <filter id="Ellipse_220">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_2489" data-name="Group 2489" transform="translate(-759.266 -423)">
+    <circle id="Ellipse_223" data-name="Ellipse 223" cx="18" cy="18" r="18" transform="translate(808.404 499.333) rotate(-45)" fill="#dee3ff"/>
+    <rect id="Rectangle_3228" data-name="Rectangle 3228" width="95" height="116" rx="20" transform="translate(759.266 423)" fill="#dee3ff"/>
+    <path id="Line_435" data-name="Line 435" d="M65.222,1.5H0v-3H65.222Z" transform="translate(759.266 460.468)" fill="#fff"/>
+    <path id="Line_440" data-name="Line 440" d="M65.222,1.5H0v-3H65.222Z" transform="translate(759.266 439.178)" fill="#fff"/>
+    <path id="Line_436" data-name="Line 436" d="M65.222,1.5H0v-3H65.222Z" transform="translate(759.266 481.758)" fill="#fff"/>
+    <path id="Line_437" data-name="Line 437" d="M65.222,1.5H0v-3H65.222Z" transform="translate(759.266 503.049)" fill="#fff"/>
+    <path id="Line_438" data-name="Line 438" d="M65.222,1.5H0v-3H65.222Z" transform="translate(759.266 524.339)" fill="#fff"/>
+    <path id="Ellipse_219" data-name="Ellipse 219" d="M30.5,2A28.508,28.508,0,0,0,19.407,56.761,28.508,28.508,0,0,0,41.593,4.239,28.32,28.32,0,0,0,30.5,2m0-2A30.5,30.5,0,1,1,0,30.5,30.5,30.5,0,0,1,30.5,0Z" transform="translate(791.434 499.333) rotate(-45)" fill="#272a46"/>
+    <g data-type="innerShadowGroup">
+      <ellipse id="Ellipse_220-2" data-name="Ellipse 220" cx="11.5" cy="12" rx="11.5" ry="12" transform="translate(816.889 499.333) rotate(-45)" fill="#204ad5"/>
+      <g transform="matrix(1, 0, 0, 1, 759.27, 423)" filter="url(#Ellipse_220)">
+        <ellipse id="Ellipse_220-3" data-name="Ellipse 220" cx="11.5" cy="12" rx="11.5" ry="12" transform="translate(57.62 76.33) rotate(-45)" fill="#fff"/>
+      </g>
+    </g>
+    <ellipse id="Ellipse_221" data-name="Ellipse 221" cx="2" cy="2.5" rx="2" ry="2.5" transform="translate(819.718 496.504) rotate(-45)" fill="#fff"/>
+    <circle id="Ellipse_222" data-name="Ellipse 222" cx="1" cy="1" r="1" transform="translate(826.082 497.211) rotate(-45)" fill="#fff"/>
+    <rect id="Rectangle_3226" data-name="Rectangle 3226" width="8" height="5" transform="translate(852.245 523.374) rotate(-45)" fill="#5260db"/>
+    <path id="Path_3109" data-name="Path 3109" d="M0,0H16.156V24.969s-4.5,4.406-8.537,4.406S0,24.969,0,24.969Z" transform="translate(852.189 529.971) rotate(-45)" fill="#ffd15c"/>
+    <rect id="Rectangle_3227" data-name="Rectangle 3227" width="16" height="8" transform="translate(852.245 530.445) rotate(-45)" fill="#c89e32"/>
+  </g>
+</svg>

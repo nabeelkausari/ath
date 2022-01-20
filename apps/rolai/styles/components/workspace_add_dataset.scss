@@ -1,0 +1,41 @@
+.excel-selection {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 10px;
+
+  .MuiTypography-root {
+    margin-bottom: 8px;
+  }
+
+  .checkbox-wrapper__label {
+    color: rgba(0, 0, 0, 0.7);
+    margin-left: 5px;
+    margin-top: -1px;
+  }
+
+  &__row {
+    display: flex;
+    margin-bottom: 10px;
+    //min-height: 4rem;
+
+    .radio-group__item {
+      margin-bottom: 0;
+    }
+
+    .ath-select-container {
+      flex: 1;
+    }
+  }
+}
+
+.ath-select__menu {
+  z-index: 99999;
+}
+
+.preloaded-option {
+  margin-bottom: 16px;
+
+  .MuiTypography-root {
+    margin-bottom: 5px;
+  }
+}

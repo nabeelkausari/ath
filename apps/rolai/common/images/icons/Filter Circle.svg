@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="Group_1862" data-name="Group 1862" transform="translate(-1097 -281)">
+    <rect id="Rectangle_701" data-name="Rectangle 701" width="40" height="40" rx="20" transform="translate(1097 281)" fill="#fff"/>
+    <path id="Rectangle_701_-_Outline" data-name="Rectangle 701 - Outline" d="M20,1a19.005,19.005,0,0,0-7.4,36.507A19.005,19.005,0,0,0,27.4,2.493,18.88,18.88,0,0,0,20,1m0-1A20,20,0,1,1,0,20,20,20,0,0,1,20,0Z" transform="translate(1097 281)" fill="#5064e3"/>
+    <path id="Icon_awesome-filter" data-name="Icon awesome-filter" d="M.657-.5H13.343a1.157,1.157,0,0,1,.818,1.974L9.25,6.385v6.958A1.159,1.159,0,0,1,8.091,14.5a1.146,1.146,0,0,1-.66-.21L5.243,12.76a1.157,1.157,0,0,1-.493-.947V6.385L-.161,1.474A1.157,1.157,0,0,1,.657-.5Zm7.434,14a.158.158,0,0,0,.159-.157V5.971l5.2-5.2A.147.147,0,0,0,13.487.6a.146.146,0,0,0-.144-.1H.657A.147.147,0,0,0,.513.6a.146.146,0,0,0,.033.17l5.2,5.2v5.842a.156.156,0,0,0,.067.128L8,13.471A.148.148,0,0,0,8.091,13.5Z" transform="translate(1110 295)" fill="#5260db"/>
+  </g>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="12.696" height="13.5" viewBox="0 0 12.696 13.5">
+  <g id="delete-icon" transform="translate(0.75 0.75)">
+    <path id="Icon_material-delete" data-name="Icon material-delete" d="M34.715,38.58v8.328A1.392,1.392,0,0,0,36.1,48.3h5.55a1.39,1.39,0,0,0,1.388-1.388V38.58m-9.76-.236h11.2" transform="translate(-33.282 -36.296)" fill="none" stroke="#2d43aa" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <line id="Line_370" data-name="Line 370" y2="3.423" transform="translate(4.42 5.239)" fill="none" stroke="#2d43aa" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <line id="Line_371" data-name="Line 371" y2="3.423" transform="translate(7.047 5.239)" fill="none" stroke="#2d43aa" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <line id="Line_372" data-name="Line 372" x2="2.961" transform="translate(4.118 0)" fill="none" stroke="#2d43aa" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  </g>
+</svg>

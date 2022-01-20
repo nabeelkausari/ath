@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14.503" viewBox="0 0 14 14.503">
+  <g id="calendar-icon" transform="translate(0 0.5)">
+    <g id="Rectangle_843" data-name="Rectangle 843" transform="translate(0 1.002)" fill="none" stroke="#2d43aa" stroke-linecap="round" stroke-width="1">
+      <rect width="14" height="13" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="13" height="12" rx="1.5" fill="none"/>
+    </g>
+    <g id="Group_1189" data-name="Group 1189" transform="translate(4.909)">
+      <line id="Line_364" data-name="Line 364" y2="2.503" transform="translate(0)" fill="none" stroke="#2d43aa" stroke-linecap="round" stroke-width="1"/>
+      <line id="Line_365" data-name="Line 365" y2="2.503" transform="translate(3.892)" fill="none" stroke="#2d43aa" stroke-linecap="round" stroke-width="1"/>
+    </g>
+    <line id="Line_366" data-name="Line 366" x2="12.508" transform="translate(0.57 6.655)" fill="none" stroke="#2d43aa" stroke-linecap="round" stroke-width="1"/>
+  </g>
+</svg>

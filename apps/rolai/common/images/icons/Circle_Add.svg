@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+  <g id="Group_2498" data-name="Group 2498" transform="translate(-1255 -260)">
+    <rect id="Rectangle_701" data-name="Rectangle 701" width="28" height="28" rx="14" transform="translate(1255 260)" fill="#fff"/>
+    <path id="Rectangle_701_-_Outline" data-name="Rectangle 701 - Outline" d="M14,1A13,13,0,0,0,4.808,23.192,13,13,0,0,0,23.192,4.808,12.915,12.915,0,0,0,14,1m0-1A14,14,0,1,1,0,14,14,14,0,0,1,14,0Z" transform="translate(1255 260)" fill="#5064e3"/>
+    <path id="Path_3286" data-name="Path 3286" d="M18,20a.5.5,0,0,1-.5-.5V7.5a.5.5,0,0,1,1,0v12A.5.5,0,0,1,18,20Z" transform="translate(1251 260.5)" fill="#5064e3"/>
+    <path id="Path_3287" data-name="Path 3287" d="M19.5,18.5H7.5a.5.5,0,0,1,0-1h12a.5.5,0,0,1,0,1Z" transform="translate(1255.5 256)" fill="#5064e3"/>
+  </g>
+</svg>

@@ -1,0 +1,89 @@
+.note-tool {
+  font-size: 2rem;
+  padding: 2rem 2rem 2rem 7rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.notes-info {
+  background: #F8FAFF;
+  font-size: 13px;
+  padding: 5px 10px 5px 20px;
+  margin: 20px;
+  border-radius: 15px;
+  overflow: auto;
+  display: flex;
+  flex-direction: row-reverse;
+
+
+  &__edit-wrapper{
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &__edit-btn{
+    cursor: pointer;
+  }
+
+  &__edit-icon{
+    cursor: pointer;
+    path{
+      fill: none;
+      stroke: var(--highlight-primary);
+    }
+  }
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.note-input-form {
+  border: 1px solid white;
+  background: var(--bg-3) !important;
+  color: var(--text-primary);
+  height: 32.6rem;
+  width: 100%;
+  padding: 1rem;
+  ::placeholder {
+    color: white;
+  }
+}
+
+.create-notes-button {
+  height: 3rem;
+  width: 10rem;
+  cursor: pointer;
+}
+
+.notes-text {
+  color: var(--text-primary);
+  word-break: break-word;
+  line-height: 1.5;
+  overflow-y: auto;
+  font-size: 1.2rem;
+  font-weight: 300;
+  /* justify-content: space-around; */
+  //text-align: justify;
+}
+
+.notes{
+
+  &__editor {
+    flex: 1;
+  }
+  &__edit-wrapper{
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+
+  &__action-btn{
+    &--save{
+      margin-right: 1rem;
+    }
+
+    &--cancel{
+    }
+  }
+}

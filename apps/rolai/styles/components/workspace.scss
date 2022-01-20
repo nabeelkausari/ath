@@ -1,0 +1,92 @@
+.react-grid-layout {
+  background: #fbfcfd;
+}
+.card-output {
+  overflow: hidden;
+  position: relative;
+
+  &--full-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1200;
+  }
+
+  &__dropdown {
+    position: absolute;
+    right: 25px;
+    width: 200px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: #fff;
+    border: 1px solid #EBEEF1;
+    //box-shadow: -5px 7px 7px rgba(0,0,0,0.05);
+
+    &--details {
+      padding: 12px;
+
+      p {
+        text-align: left;
+        margin: 0;
+      }
+      &-1 {
+        font-size: 16px;
+      }
+      &-2 {
+        font-size: 14px;
+      }
+    }
+
+  }
+
+  &__header {
+    position: absolute;
+    width: 100%;
+    background: #fff;
+    z-index: 2;
+  }
+
+  &__content {
+    //position: absolute;
+    height: 100%;
+    margin-top: 56px;
+    overflow: scroll;
+    padding: 0 24px 48px;
+  }
+}
+
+.card-output,
+.output {
+  table {
+    background: #f8f9ff;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-weight: normal;
+    font-size: 13px;
+    border-collapse: separate;
+    border-spacing: 0;
+
+    thead th, thead td {
+      padding: 20px;
+      border: 0 solid #EBEEF1;
+      border-left-width: 1px;
+
+      &:first-child {
+        border-left: 0;
+      }
+    }
+
+    tbody td {
+      padding: 16px;
+      border: 1px solid #EBEEF1;
+      border-right: 0;
+      border-bottom: 0;
+
+      &:first-child {
+        border-left: 0;
+      }
+    }
+  }
+}

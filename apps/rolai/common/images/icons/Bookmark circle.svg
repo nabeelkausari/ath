@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="Group_1573" data-name="Group 1573" transform="translate(-1097 -281)">
+    <g id="Group_966" data-name="Group 966" transform="translate(-73.939 265)">
+      <g id="Group_970" data-name="Group 970" transform="translate(73.939 -265)">
+        <rect id="Rectangle_701" data-name="Rectangle 701" width="40" height="40" rx="20" transform="translate(1097 281)" fill="#fff"/>
+        <path id="Rectangle_701_-_Outline" data-name="Rectangle 701 - Outline" d="M20,1a19.005,19.005,0,0,0-7.4,36.507A19.005,19.005,0,0,0,27.4,2.493,18.88,18.88,0,0,0,20,1m0-1A20,20,0,1,1,0,20,20,20,0,0,1,20,0Z" transform="translate(1097 281)" fill="#5064e3"/>
+      </g>
+    </g>
+    <path id="Icon_awesome-bookmark" data-name="Icon awesome-bookmark" d="M12.5,16.871,6,13.079-.5,16.871V1.5a2,2,0,0,1,2-2h9a2,2,0,0,1,2,2ZM6,11.921l5.5,3.208V1.5a1,1,0,0,0-1-1h-9a1,1,0,0,0-1,1V15.129Z" transform="translate(1111.5 293.5)" fill="#5064e3"/>
+    <path id="Icon_ionic-ios-star" data-name="Icon ionic-ios-star" d="M8.79,5.56H6.558L5.88,3.536a.246.246,0,0,0-.461,0L4.74,5.56H2.493A.243.243,0,0,0,2.25,5.8a.178.178,0,0,0,0,.041.233.233,0,0,0,.1.171L4.191,7.308l-.7,2.047a.243.243,0,0,0,.083.273.235.235,0,0,0,.137.059.3.3,0,0,0,.152-.055L5.649,8.357,7.439,9.633a.284.284,0,0,0,.152.055.218.218,0,0,0,.135-.059.241.241,0,0,0,.083-.273l-.7-2.047L8.925,6l.044-.038A.232.232,0,0,0,8.79,5.56Z" transform="translate(1111.851 292.656)" fill="#5064e3"/>
+  </g>
+</svg>

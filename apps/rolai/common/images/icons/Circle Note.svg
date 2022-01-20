@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="Group_970" data-name="Group 970" transform="translate(-1097 -281)">
+    <g id="Group_966" data-name="Group 966" transform="translate(-73.939 265)">
+      <g id="Group_970-2" data-name="Group 970" transform="translate(73.939 -265)">
+        <rect id="Rectangle_701" data-name="Rectangle 701" width="40" height="40" rx="20" transform="translate(1097 281)" fill="#fff"/>
+        <path id="Rectangle_701_-_Outline" data-name="Rectangle 701 - Outline" d="M20,1a19.005,19.005,0,0,0-7.4,36.507A19.005,19.005,0,0,0,27.4,2.493,18.88,18.88,0,0,0,20,1m0-1A20,20,0,1,1,0,20,20,20,0,0,1,20,0Z" transform="translate(1097 281)" fill="#5064e3"/>
+      </g>
+    </g>
+    <g id="noun_note_1859321" transform="translate(1105 289)">
+      <path id="Path_3034" data-name="Path 3034" d="M17,4H7A3,3,0,0,0,4,7V17a3,3,0,0,0,3,3h7.172a2,2,0,0,0,1.414-.586l3.828-3.828A2,2,0,0,0,20,14.172V7a3,3,0,0,0-3-3ZM15,18.586V16a1,1,0,0,1,1-1h2.586ZM19,14H16a2,2,0,0,0-2,2v3H7a2,2,0,0,1-2-2V7A2,2,0,0,1,7,5H17a2,2,0,0,1,2,2Z" fill="#5064e3"/>
+      <path id="Path_3035" data-name="Path 3035" d="M15.5,8h-7a.5.5,0,0,0,0,1h7a.5.5,0,0,0,0-1Z" fill="#5064e3"/>
+      <path id="Path_3036" data-name="Path 3036" d="M15.5,11h-7a.5.5,0,0,0,0,1h7a.5.5,0,0,0,0-1Z" fill="#5064e3"/>
+    </g>
+  </g>
+</svg>

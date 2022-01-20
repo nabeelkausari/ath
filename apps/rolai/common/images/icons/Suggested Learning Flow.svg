@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="27.464" height="27.577" viewBox="0 0 27.464 27.577">
+  <g id="Group_914" data-name="Group 914" transform="translate(-38.585 -38.613)">
+    <circle id="Ellipse_183" data-name="Ellipse 183" cx="3.494" cy="3.494" r="3.494" transform="translate(39.335 39.363)" fill="#fff"/>
+    <path id="Ellipse_183_-_Outline" data-name="Ellipse 183 - Outline" d="M3.494-.75A4.244,4.244,0,1,1-.75,3.494,4.249,4.249,0,0,1,3.494-.75Zm0,6.987A2.744,2.744,0,1,0,.75,3.494,2.747,2.747,0,0,0,3.494,6.237Z" transform="translate(39.335 39.363)" fill="#727A9D"/>
+    <rect id="Rectangle_618" data-name="Rectangle 618" width="6.252" height="6.252" transform="translate(59.047 48.005)" fill="#fff"/>
+    <path id="Rectangle_618_-_Outline" data-name="Rectangle 618 - Outline" d="M0-.75H6.252A.75.75,0,0,1,7,0V6.252a.75.75,0,0,1-.75.75H0a.75.75,0,0,1-.75-.75V0A.75.75,0,0,1,0-.75ZM5.5.75H.75V5.5H5.5Z" transform="translate(59.047 48.005)" fill="#727A9D"/>
+    <rect id="Rectangle_619" data-name="Rectangle 619" width="6.252" height="6.252" transform="translate(59.047 59.188)" fill="#fff"/>
+    <path id="Rectangle_619_-_Outline" data-name="Rectangle 619 - Outline" d="M0-.75H6.252A.75.75,0,0,1,7,0V6.252a.75.75,0,0,1-.75.75H0a.75.75,0,0,1-.75-.75V0A.75.75,0,0,1,0-.75ZM5.5.75H.75V5.5H5.5Z" transform="translate(59.047 59.188)" fill="#727A9D"/>
+    <path id="Path_3030" data-name="Path 3030" d="M45.086,41.9h5.725V61.575h5.823" transform="translate(1.678 0.739)" fill="#fff"/>
+    <path id="Path_3030_-_Outline" data-name="Path 3030 - Outline" d="M56.633,62.325H50.811a.75.75,0,0,1-.75-.75V42.646H45.086a.75.75,0,0,1,0-1.5h5.725a.75.75,0,0,1,.75.75V60.825h5.073a.75.75,0,0,1,0,1.5Z" transform="translate(1.678 0.739)" fill="#727A9D"/>
+    <path id="Line_341" data-name="Line 341" d="M5.48.75H0A.75.75,0,0,1-.75,0,.75.75,0,0,1,0-.75H5.48A.75.75,0,0,1,6.23,0,.75.75,0,0,1,5.48.75Z" transform="translate(52.832 51.159)" fill="#727A9D"/>
+  </g>
+</svg>

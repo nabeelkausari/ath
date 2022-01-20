@@ -1,0 +1,248 @@
+//function flyout
+.fx{
+  &-list {
+    &__item{
+      margin-bottom: 16px;
+    }
+
+    &__persisted-icons{
+      display: flex;
+    }
+
+
+    &__publish{
+      display: none;
+      cursor: pointer;
+      margin-right: 1rem;
+      width: 1.4rem;
+      height: 1.4rem;
+
+      path {
+        fill:var(--text-primary)
+      }
+
+      &:hover{
+        path {
+          fill:var(--highlight-primary)
+        }
+      }
+    }
+    &__published{
+      display: block;
+      cursor: pointer;
+      margin-right: 1rem;
+      width: 1.4rem;
+      height: 1.4rem;
+      path{
+        fill: var(--highlight-primary)
+      }
+    }
+    &__unpublish{
+      display: none;
+      cursor: pointer;
+      margin-right: 1rem;
+      width: 1.6rem;
+      height: 1.6rem;
+      path {
+        fill:var(--text-primary)
+      }
+      &:hover{
+        path {
+          fill:var(--highlight-primary)
+        }
+      }
+    }
+    &__republish{
+      display: none;
+      cursor: pointer;
+      margin-right: 1rem;
+      width: 1.6rem;
+      height: 1.6rem;
+      path {
+        fill:var(--text-primary)
+      }
+
+      &:hover{
+        path {
+          fill:var(--highlight-primary)
+        }
+      }
+    }
+
+    &__edit{
+      display: none;
+      cursor: pointer;
+      margin-right: 1rem;
+      width: 1.6rem;
+      height: 1.6rem;
+      path {
+        fill:var(--text-primary)
+      }
+      &:hover{
+        path {
+          fill:var(--highlight-primary)
+        }
+      }
+    }
+
+    &__delete{
+      display: none;
+      cursor: pointer;
+      margin-right: 1rem;
+      width: 1.4rem;
+      height: 1.4rem;
+      path {
+        fill:var(--text-primary)
+      }
+      &:hover{
+        path {
+          fill:var(--highlight-primary)
+        }
+      }
+    }
+
+    &__save{
+      cursor: pointer;
+      margin-right: 1rem;
+      width: 2rem;
+      height: 2rem;
+      path {
+        fill:var(--text-primary)
+      }
+      &:hover{
+        path {
+          fill:var(--highlight-primary)
+        }
+      }
+    }
+
+    &__close{
+      cursor: pointer;
+      margin-right: 1rem;
+      width: 1rem;
+      height: 1rem;
+      path {
+        fill:var(--text-primary)
+      }
+      &:hover{
+        path {
+          fill:var(--highlight-primary)
+        }
+      }
+    }
+
+    &__loader{
+
+      &--1{
+        margin-right: 1rem;
+      }
+    }
+
+    &__udf-rename-active-actions{
+      position: relative;
+      display: flex;
+      align-items: center;
+      margin-left: 2rem;
+      padding-bottom: .5rem;
+    }
+
+
+    &__title {
+      font-size: 12px;
+      font-weight: bold;
+      color: var(--palette-text-main);
+      margin-bottom: 4px;
+    }
+
+
+    &__icons-wrapper{
+      display: flex;
+    }
+
+    &__item-wrapper{
+      display: flex;
+      justify-content: flex-start;
+
+
+
+      &:hover{
+        .fx-list__subtitle{
+          color: var(--palette-primary-main);
+        }
+
+        .fx-list__publish, .fx-list__unpublish, .fx-list__republish, .fx-list__edit, .fx-list__delete{
+          display: block;
+        }
+        .fx-list__published{
+          display: none;
+        }
+      }
+    }
+
+    &__subtitle {
+      cursor: pointer;
+      font-size: 12px;
+      color: var(--palette-text-main);
+      font-weight: normal;
+      padding: 0;
+      line-height: 2;
+    }
+
+    &__udf-rename-active{
+      width: 18rem;
+      margin-bottom: 1rem;
+    }
+  }
+
+  &__search {
+    &-items {
+      padding: 10px;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      max-width: unset;
+      color: var(--palette-text-main);
+
+      &:hover {
+        .fx__search-name, .fx__search-category {
+          color: var(--palette-primary-main);
+        }
+      }
+    }
+
+    &-name {
+      font-weight: bold;
+      font-size: 12px;
+
+
+    }
+
+    &-category {
+      font-weight: normal;
+      font-size: 12px;
+    }
+  }
+
+  &__header {
+    &-title {
+      font-size: 15px;
+      color: var(--palette-text-main);
+      margin-top: 0;
+      margin-bottom: 4px;
+      font-weight: bold;
+    }
+  }
+
+  &__params {
+    &-container {
+      h4 {
+        word-wrap: break-word;
+      }
+    }
+  }
+}
+
+.fx-active {
+  color: var(--palette-primary-main);
+  font-weight: bold;
+}

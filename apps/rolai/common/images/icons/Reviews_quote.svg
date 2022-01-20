@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="76" height="50" viewBox="0 0 76 50">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_787" data-name="Rectangle 787" width="76" height="50" transform="translate(272 3934)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Reviews" transform="translate(-272 -3934)" clip-path="url(#clip-path)">
+    <text id="_" data-name="&quot;" transform="matrix(-1, 0, 0, 1, 352, 4167)" font-size="300" font-family="BedrockPlain, Bedrock" opacity="0.2"><tspan x="0" y="0">&quot;</tspan></text>
+  </g>
+</svg>

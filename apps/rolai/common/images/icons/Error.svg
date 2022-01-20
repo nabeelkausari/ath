@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="12.997" height="11.979" viewBox="0 0 12.997 11.979">
+  <g id="Group_1813" data-name="Group 1813" transform="translate(-1186.001 -271.833)">
+    <path id="Polygon_1_-_Outline" data-name="Polygon 1 - Outline" d="M8.4,3.108a1.051,1.051,0,0,0-.936.55L2.54,12.493a1.072,1.072,0,0,0,.936,1.593h9.849a1.072,1.072,0,0,0,.936-1.593L9.337,3.658a1.051,1.051,0,0,0-.936-.55" transform="translate(1184.099 269.225)" fill="#fff"/>
+    <path id="Polygon_1_-_Outline_-_Outline" data-name="Polygon 1 - Outline - Outline" d="M13.326,14.587H3.476A1.572,1.572,0,0,1,2.1,12.25L7.028,3.414a1.572,1.572,0,0,1,2.746,0L14.7,12.25a1.572,1.572,0,0,1-1.373,2.337ZM8.4,3.608a.545.545,0,0,0-.5.293L2.977,12.737a.572.572,0,0,0,.5.85h9.849a.572.572,0,0,0,.5-.85L8.9,3.9A.545.545,0,0,0,8.4,3.608Z" transform="translate(1184.099 269.225)" fill="#e13d3d"/>
+    <g id="Group_1812" data-name="Group 1812" transform="translate(10 0.5)">
+      <path id="Line_407" data-name="Line 407" d="M0,3.75A.75.75,0,0,1-.75,3V0A.75.75,0,0,1,0-.75.75.75,0,0,1,.75,0V3A.75.75,0,0,1,0,3.75Z" transform="translate(1182.5 275.5)" fill="#e13d3d"/>
+      <path id="Line_408" data-name="Line 408" transform="translate(1182.5 280.5)" fill="#e13d3d"/>
+    </g>
+  </g>
+</svg>

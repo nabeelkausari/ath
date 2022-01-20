@@ -1,0 +1,51 @@
+@keyframes animate-in-progress {
+
+  0% {
+    background: rgba(44, 180, 90, 0.3);
+  }
+
+  50% {
+    background: rgba(44, 180, 90, 0.9);
+  }
+
+  100%{
+    background: rgba(44, 180, 90, 0.3);
+  }
+}
+
+.index-no__wrapper--in-progress {
+  background: rgba(44, 180, 90, 0.1);
+  transition: 0.5s all;
+  animation: animate-in-progress 2s infinite linear;
+
+  &:hover {
+    animation: none;
+
+    .stop-step {
+      background-color: rgba(80, 100, 227, 1) !important;
+    }
+  }
+}
+
+
+.index-no__wrapper--killed {
+  background: #fff !important;
+  animation: none;
+  opacity: 0.4;
+  .stop-step {
+    background-color: red !important;
+  }
+}
+
+.killed-step--in-progress {
+  opacity: 0.4;
+}
+
+.is_killing {
+  cursor: not-allowed;
+}
+
+.index-no__text {
+  font-size: 13px;
+  font-weight: 500;
+}

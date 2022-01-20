@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 38 38">
+  <g id="Group_2505" data-name="Group 2505" transform="translate(-426 -222)">
+    <circle id="Ellipse_243" data-name="Ellipse 243" cx="19" cy="19" r="19" transform="translate(426 222)" fill="#fff"/>
+    <path id="Ellipse_243_-_Outline" data-name="Ellipse 243 - Outline" d="M19,1A18,18,0,0,0,6.272,31.728,18,18,0,1,0,31.728,6.272,17.882,17.882,0,0,0,19,1m0-1A19,19,0,1,1,0,19,19,19,0,0,1,19,0Z" transform="translate(426 222)" fill="#5064e3"/>
+    <path id="Icon_metro-user" data-name="Icon metro-user" d="M12.211,14.5v-.8a4.306,4.306,0,0,0,1.928-3.582c0-2.4,0-4.338-2.892-4.338S8.355,7.726,8.355,10.122A4.306,4.306,0,0,0,10.283,13.7v.8c-3.27.267-5.784,1.874-5.784,3.817H18c0-1.943-2.514-3.549-5.784-3.817Z" transform="translate(433.97 228.949)" fill="#5064e3" opacity="0.5"/>
+  </g>
+</svg>

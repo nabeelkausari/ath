@@ -1,0 +1,23 @@
+{
+  "root": "libs/ui/logo",
+  "sourceRoot": "libs/ui/logo/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/ui/logo/**/*.{ts,tsx,js,jsx}"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/ui/logo"],
+      "options": {
+        "jestConfig": "libs/ui/logo/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  }
+}

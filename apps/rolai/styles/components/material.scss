@@ -1,0 +1,495 @@
+.editor-features-controlled {
+  font-family: var(--font-family) !important;
+  color: var(--palette-text-main) !important;
+  font-size: 13px !important;
+
+  .fr-view {
+    * {
+      background: transparent !important;
+      color: var(--palette-text-main) !important;
+      font-family: var(--font-family) !important;
+    }
+
+    ul {
+      padding-left: 40px;
+      margin-bottom: 10px;
+      background: transparent !important;
+
+      li {
+        font-size: 13px !important;
+      }
+    }
+
+    ol {
+      padding-left: 20px;
+      margin-bottom: 10px;
+      background: transparent !important;
+
+      li {
+        font-size: 13px !important;
+        line-height: 1.5 !important;
+      }
+    }
+
+    span,
+    p {
+      color: var(--palette-text-main) !important;
+      font-family: var(--font-family) !important;
+      font-size: 13px !important;
+      line-height: 1.5 !important;
+    }
+
+    table {
+      background: transparent !important;
+    }
+
+    td {
+      border: 1px solid #898989 !important;
+    }
+  }
+}
+
+.course-material{
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+
+  .editor-features-controlled {
+    font-family: var(--font-family) !important;
+    color: var(--palette-text-main) !important;
+    font-size: 13px !important;
+
+    .fr-view {
+      margin: 0 50px;
+    }
+
+    .e-dt-out,
+    .e-dt-desc,
+    .e-dt-dict,
+    .e-dt-context,
+    .e-overview,
+    .e-lresources,
+    .e-mstruct,
+    .e-slflow,
+    .e-ci-overview,
+    .e-ci-cstruct,
+    .e-cd-goal,
+    .e-cd-business,
+    .c-lo-problem,
+    .c-lo-desc,
+    .c-lo-solution,
+    .c-lo-reference,
+    .c-lo-steps,
+    .c-lo-overview,
+    .c-lo-struct {
+      font-size: 24px !important;
+      font-weight: 300 !important;
+      margin-bottom: 12px !important;
+      position: relative !important;
+
+      &:before {
+        content: '';
+        display: block;
+        width: 20px;
+        height: 24px;
+        position: absolute;
+        left: -40px;
+        top: 5px;
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+    }
+
+    .e-dt-out:before {
+      width: 26px;
+      height: 24px;
+      left: -45px;
+      top: 7px;
+      background-image: url("../../common/images/icons/Output.svg");
+    }
+
+    .e-dt-desc:before {
+      background-image: url("../../common/images/icons/course_icon.svg");
+    }
+    .e-dt-dict:before {
+      background-image: url("../../common/images/icons/Data_Dictionary.svg");
+    }
+    .e-overview:before,
+    .e-dt-context:before,
+    .e-ci-overview:before,
+    .c-lo-steps:before,
+    .c-lo-overview:before {
+      background-image: url("../../common/images/icons/Overview.svg");
+    }
+
+    .e-lresources:before,
+    .c-lo-struct:before,
+    .c-lo-problem:before,
+    .c-lo-reference:before {
+      background-image: url("../../common/images/icons/Learning.svg");
+    }
+    .e-mstruct:before,
+    .e-ci-cstruct:before,
+    .c-lo-solution:before {
+      background-image: url("../../common/images/icons/Module Structure.svg");
+    }
+    .e-slflow:before,
+    .e-cd-goal:before,
+    .e-cd-business:before,
+    .c-lo-desc:before {
+      background-image: url("../../common/images/icons/Suggested Learning Flow.svg");
+    }
+
+    .w-goal,
+    .w-ccover,
+    .w-steps,
+    .w-try{
+      font-size: 14px !important;
+      font-weight: 500;
+    }
+
+    & span,
+    & tr td span {
+      font-family: var(--font-family) !important;
+      color: var(--palette-text-main) !important;
+      font-size: 0.9rem !important;
+    }
+
+    tr td {
+      background-color: transparent !important;
+      padding: 0.9rem !important;
+      border: none !important;
+      border-bottom: 2px solid #E2E4EF !important;
+
+      &:first-child {
+        border-left: 1px solid #E2E4EF !important;
+      }
+      &:last-child {
+        border-right: 1px solid #E2E4EF !important;
+      }
+
+      p {
+        margin: 0 !important;
+      }
+    }
+
+    tr:first-child {
+
+      td {
+        border: none !important;
+        border-radius: 4px !important;
+        border-top: 1px solid #E2E4EF !important;
+        border-bottom: 1px solid #E2E4EF !important;
+
+        p {
+          text-align: left !important;
+          span {
+            color: #727A9D !important;
+          }
+        }
+
+        &:first-child {
+          border-top-left-radius: 4px !important;
+          border-left: 1px solid #E2E4EF !important;
+        }
+
+        &:last-child {
+          border-top-right-radius: 4px !important;
+          border-right: 1px solid #E2E4EF !important;
+        }
+      }
+    }
+  }
+
+  &--course-content{
+    padding: 2rem;
+    .course-material__actions-wrapper{
+      padding: 0 !important;
+    }
+  }
+
+  &__actions-wrapper{
+    display: flex;
+    margin-bottom: 0.5rem;
+  }
+
+  &__editor-wrapper{
+    overflow: auto;
+    flex: 1;
+
+    &--1{
+      height: 100% !important;
+    }
+  }
+
+  &__btn{
+
+    &--edit{
+
+    }
+
+    &--save{
+      margin-left: auto;
+    }
+
+    &--cancel{
+
+    }
+  }
+}
+
+.editor-course-overview {
+  .fr-view {
+    ul, ol {
+      background: #F8FAFF !important;
+      padding: 20px 40px;
+      border-radius: 15px;
+      line-height: 30px !important;
+    }
+  }
+}
+
+.editor-content-overview {
+  ul, ol {
+    background: #F8FAFF;
+    padding: 20px 40px;
+    border-radius: 15px;
+    line-height: 30px;
+  }
+
+  ul {
+    list-style-type: '-  ';
+  }
+
+  ol ul,
+  ul ol {
+    padding: 10px 30px;
+  }
+}
+
+.editor-milestone-overview {
+  .fr-view {
+    margin: 0 !important;
+
+    ol {
+      padding-left: 0;
+      list-style: none;
+      counter-reset: custom-counter;
+    }
+
+    li {
+      background: #F8FAFF !important;
+      border-radius: 15px;
+      line-height: 1.5 !important;
+      padding: 15px 15px 15px 25px !important;
+      position: relative;
+      counter-increment: custom-counter;
+      margin: 8px 8px 8px 16px;
+    }
+
+    li::before {
+      content: counter(custom-counter);
+      background: #fff;
+      border: 1px solid #ebeef1;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #000000;
+      text-align: center;
+      position: absolute;
+      left: -15px;
+      font-size: 15px;
+      top: calc(50% - 15px);
+    }
+    ul {
+      list-style-type: '-  ';
+    }
+
+    ol ul,
+    ul ol {
+      padding: 10px 30px;
+    }
+  }
+}
+
+.simple-editor-wrapper{
+  //default froala theme override
+
+  .fr-box {
+
+    [data-cmd="insertImage"]{
+      display: none;
+    }
+
+    .fr-newline{
+      background: var(--text-secondary);
+    }
+    .fr-element{
+      border: none;
+      color: var(--text-primary) !important;
+      background-color: var(--bg-3);
+      border-radius: .4rem;
+    }
+    .fr-toolbar {
+      display: none;
+      background-color: var(--bg-1) !important;
+      border-color: var(--text-primary) !important;
+
+      .fr-more-toolbar{
+        background-color: var(--bg-1) !important;
+      }
+    }
+
+    .fr-toolbar .fr-command.fr-btn svg path,
+    .fr-popup .fr-command.fr-btn svg path,
+    .fr-modal .fr-command.fr-btn svg path {
+      fill: var(--text-primary) !important;
+    }
+
+    //btn hover
+    .fr-desktop .fr-command:hover:not(.fr-table-cell),
+    .fr-desktop .fr-command:focus:not(.fr-table-cell),
+    .fr-desktop .fr-command.fr-btn-hover:not(.fr-table-cell),
+    .fr-desktop .fr-command.fr-expanded:not(.fr-table-cell){
+      background-color: var(--highlight-primary);
+
+    }
+
+    //btn active, focus
+    .fr-toolbar .fr-command.fr-btn.fr-open:not(:hover):not(:focus):not(:active){
+      background-color: var(--highlight-primary);
+    }
+
+    .fr-wrapper{
+      border: none;
+      background-color: var(--bg-1) !important;
+      border-radius: .4rem;
+    }
+    .second-toolbar{
+      display: none;
+      background-color: var(--bg-1) !important;
+      border-color: var(--text-primary) !important;
+
+    }
+  }
+
+
+  //editor components
+  .desc-model{
+    padding: 2rem 4rem;
+  }
+
+  .editor-container{
+
+    &__btn-container{
+      display: flex;
+      flex: 1;
+      justify-content: flex-end;
+      margin-bottom: 2rem;
+    }
+
+    &__icon{
+      height: 2rem;
+      width: 2rem;
+      cursor: pointer;
+
+      //path{
+      //  fill: var(--text-primary);
+      //}
+
+      path#Path_797{
+        fill: var(--text-primary);
+      }
+
+      &:hover {
+        path#Path_797 {
+          fill: var(--highlight-primary);
+        }
+      }
+      &--save{
+        margin-right: 3rem;
+        path, rect{
+          fill: var(--text-primary);
+        }
+
+        &:hover{
+          path, rect{
+            fill: var(--highlight-primary);
+          }
+        }
+      }
+    }
+
+    &__close-btn{
+      width: 1.6rem;
+      height: 1.6rem;
+      cursor: pointer;
+
+      &:hover{
+        path {
+          fill: var(--highlight-primary);
+        }
+      }
+    }
+
+    &__view {
+      margin-top: 3rem;
+      padding: 1rem;
+      .fr-view span,
+      .fr-view p,
+      .fr-view h1{
+        font-family: "Poppins", sans-serif;
+        color: var(--text-primary);
+      }
+
+
+      .fr-view font{
+        color: var(--text-primary);
+        font-family: "Poppins", sans-serif;
+      }
+    }
+  }
+
+
+  .fr-view {
+    * {
+      background: transparent !important;
+    }
+
+    span,
+    p{
+      font-family: "Poppins", sans-serif !important;
+      color: var(--text-primary) !important;
+      font-size: 1.1rem !important;
+    }
+
+    table {
+      background: transparent !important;
+    }
+
+    h1{
+      font-size: 2rem;
+    }
+    h2{
+      font-size: 1.8rem;
+    }
+    h3{
+      font-size: 1.6rem;
+    }
+    h4{
+      font-size: 1.4rem;
+    }
+    h5{
+      font-size: 1.2rem;
+    }
+    h6{
+      font-size: 1rem;
+    }
+
+  }
+}

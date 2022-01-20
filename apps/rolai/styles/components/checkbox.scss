@@ -1,0 +1,139 @@
+.checkbox-wrapper{
+  margin-bottom: 14px;
+  font-size: 14px;
+  color: rgba(0,0,0,0.7);
+}
+
+.styled-checkbox {
+  position: absolute;
+  opacity: 0;
+
+  & + label {
+    position: relative;
+    padding: 0;
+  }
+
+  // Box.
+  & + label:before {
+    content: '';
+    display: inline-block;
+    vertical-align: text-top;
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.5rem;
+    background: white;
+    border: 1px solid #a9a4a4;
+  }
+
+  // Box checked
+  &:checked + label:before {
+    border-color: #5064e3;
+  }
+
+  // Disabled state label.
+  &:disabled + label {
+    opacity: .3;
+    cursor: not-allowed;
+  }
+
+  // Disabled box.
+  &:disabled + label:before {
+    box-shadow: none;
+    opacity: .3;
+    cursor: not-allowed;
+  }
+
+  // Checkmark. Could be replaced with an image
+  &:checked + label:after {
+    content: '';
+    position: absolute;
+    left: 3px;
+    top: 7px;
+    background: #5064e3;
+    width: .1rem;
+    height: .1rem;
+    box-shadow: 2px 0 0 #5064e3, 4px 0 0 #5064e3, 4px -2px 0 #5064e3,
+                4px -4px 0 #5064e3, 4px -6px 0 #5064e3, 4px -8px 0 #5064e3;
+    transform: rotate(45deg);
+  }
+}
+.checkbox-wrapper {
+   &__item{
+     &--correct {
+       .styled-checkbox {
+         // Box checked
+         &:checked + label:before {
+           background: white;
+           border-color: green;
+         }
+         &:checked + label {
+           color: green;
+           font-weight: 600;
+         }
+         // Checkmark. Could be replaced with an image
+         &:checked + label:after {
+           content: '';
+           position: absolute;
+           left: 3px;
+           top: 7px;
+           background: green;
+           width: .1rem;
+           height: .1rem;
+           box-shadow: 2px 0 0 green, 4px 0 0 green, 4px -2px 0 green,
+                       4px -4px 0 green, 4px -6px 0 green, 4px -8px 0 green;
+           transform: rotate(45deg);
+         }
+       }
+     }
+     &--user-correct {
+       .styled-checkbox {
+         // Box checked
+         & + label:before {
+           background: white;
+           border-color: green;
+         }
+         & + label {
+           color: green;
+           font-weight: 600;
+         }
+         // Checkmark. Could be replaced with an image
+         & + label:after {
+           content: '';
+           position: absolute;
+           left: 3px;
+           top: 7px;
+           background: green;
+           width: .1rem;
+           height: .1rem;
+           box-shadow: 2px 0 0 green, 4px 0 0 green, 4px -2px 0 green,
+                       4px -4px 0 green, 4px -6px 0 green, 4px -8px 0 green;
+           transform: rotate(45deg);
+         }
+       }
+     }
+     &--wrong {
+       .styled-checkbox {
+         // Box not checked
+         &:not(:checked) + label:before {
+           background: white;
+           border-color: red;
+         }
+         &:not(:checked) + label {
+           color: red;
+         }
+         // Checkmark. Could be replaced with an image
+         &:not(:checked) + label:after {
+           content: 'X';
+           font-weight: 600;
+           position: absolute;
+           left: 3px;
+           top: -2px;
+           color: red;
+           background: red;
+           width: 0rem;
+           height: 0rem;
+         }
+       }
+     }
+   }
+}
