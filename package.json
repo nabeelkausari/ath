@@ -7,7 +7,7 @@
     "build": "nx build",
     "test": "nx test",
     "dev:rolai": "yarn run copymaps && NX_API_GATEWAY_URL=https://qaoeapi.analyttica.com NX_APP_URL=https://qaoe.analyttica.com nx serve rolai",
-    "build:qarolai": "yarn run copymaps && NX_API_GATEWAY_URL=https://qaoeapi.analyttica.com NX_APP_URL=https://qarolai.analyttica.com nx build rolai --prod --verbose",
+    "build:qarolai": "yarn run copymaps && NODE_ENV=production NX_API_GATEWAY_URL=https://qaoeapi.analyttica.com NX_APP_URL=https://qarolai.analyttica.com nx build rolai",
     "copymaps": "./copyfile.sh",
     "prestart": "yarn run copymaps",
     "prebuild": "yarn run copymaps"
