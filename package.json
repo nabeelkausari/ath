@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "cd apps/rolai && next start",
+    "start": "nx serve rolai --prod",
     "build": "nx build",
     "test": "nx test",
     "dev:rolai": "yarn run copymaps && NX_API_GATEWAY_URL=https://qaoeapi.analyttica.com NX_APP_URL=https://qaoe.analyttica.com nx serve rolai",
